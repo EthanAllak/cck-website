@@ -3,8 +3,8 @@ const { foundation } = Astro.props;
 ---
 
 <details>
-  <summary>{foundation.title}</summary>
-  <p>{foundation.description}</p>
+  <summary>{foundation.data.title}</summary>
+  <p>{foundation.data.description}</p>
   <a href={`/foundations/${foundation.id}`}>
     Find out how we put this in practice
   </a>

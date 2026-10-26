@@ -6,11 +6,6 @@
 {"message":"Clearing content store","label":"content","level":"info"}
 {"message":"Synced content","label":"content","level":"info"}
 {"message":"Re-optimizing dependencies because vite config has changed","label":"vite","level":"info"}
-{"message":" astro  v7.4.0 ready in 604 ms\n┃ Local    http://localhost:4399/\n┃ Network  use --host to expose","label":"SKIP_FORMAT","level":"info"}
+{"message":" astro  v7.4.0 ready in 396 ms\n┃ Local    http://localhost:4399/\n┃ Network  use --host to expose","label":"SKIP_FORMAT","level":"info"}
 {"message":"watching for file changes...","label":null,"level":"info"}
-{"message":"[200] /foundations/fusion 22ms","label":null,"level":"info"}
-{"message":"[200] /foundations/learning 1ms","label":null,"level":"info"}
-{"message":"[200] /foundations/experiment 1ms","label":null,"level":"info"}
-{"message":"[200] /foundations/collaboration 1ms","label":null,"level":"info"}
-{"message":"[200] /foundations/fusion 1ms","label":null,"level":"info"}
-{"message":"[200] / 3ms","label":null,"level":"info"}
+{"message":"[200] / 32ms","label":null,"level":"info"}
