@@ -1,4 +1,11 @@
 ---
+import { getCollection } from "astro:content";
+import WorkshopCard from "./WorkshopCard.astro";
+
+const workshops = (await getCollection("workshops")).sort((a, b) =>
+  a.id.localeCompare(b.id),
+);
+
 /* check WorkshopCard.astro to get an idea of how to use these themes */
 const themes = ["grey", "green", "black"];
 ---
@@ -13,7 +20,16 @@ const themes = ["grey", "green", "black"];
     </p>
   </header>
   <ul>
-    <li>##WORKSHOP##</li>
+    {
+      workshops.map((workshop, i) => (
+        <li>
+          <WorkshopCard
+            workshop={workshop}
+            theme={themes[i % themes.length]}
+          />
+        </li>
+      ))
+    }
   </ul>
 </section>
 
